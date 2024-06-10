@@ -39,8 +39,11 @@ console.log(`Employee is ${employeeStatus}`);
 if (employeeStatus === "Present") {
     const dailyWage = calculateDailyWage();
     console.log(`Employee's daily wage is ${dailyWage}`);
+    const monthlyWage = dailyWage *20;
+console.log(`Employee's Monthly wage is ${monthlyWage}`);
 } else {
     console.log("Employee's daily wage is 0");
 }
+
 
 
